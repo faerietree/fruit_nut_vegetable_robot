@@ -1,19 +1,21 @@
-AgroCircle
+Fruit Nut Vegetable Carer
 ==========
 
-Open design and documentation for an agricultural robot similar to the AgroKruh, invented by Ján Šlinský.
+Open design and documentation for an agricultural robot similar in function to the AgroKruh, invented by Ján Šlinský, but simpler, cheaper and highly automated reusing the worlddevelopment pivot: <a href="http://github.com/faerietree/manipulator">industrial robot</a>.
 
 
 Overview
 -------
 
 ###Current Development
-Research. Design at least one prototype. Then follow and build these prototypes until an (appropriately) working design is found.
+Design at least one prototype. Improve the prototype until a properly working design is found.
 
 
 ###Variants
-* Operates on a circular field. (Robot attached to linear slider which itself is attached to a rotational center joint.)
-* Operates on a linear field. (Robot attached to linear slider.)
+* [deprecated] Operates on a circular field. (Robot attached to linear slider which itself is attached to a rotational center joint.)
+* [deprecated] Operates on a linear field. (Robot attached to linear slider.)
+* <a href="http://github.com/faerietree/manipulator">5 axis manipulator</a> for static usage
+* <a href="http://github.com/faerietree/walker">walker</a> + <a href="http://github.com/faerietree/manipulator">manipulator</a> for dynamic|infinite field size deployment.
 
 
 
