@@ -37,7 +37,7 @@ Requirements:
 ----
 
 * Operate on an as big as convenient ground surface to produce enough food to feed at least a dozen people.
-* Resolution high enough to reach as much of this surface as possible and useful. 
+* Resolution high enough to reach as much of this surface as possible and useful.
 * Allow to prepare soil for growing plants on this surface of operation.
 * Allow to automate growing plants on this surface of operation.
 * Allow manual intervention where and when appropriate.
@@ -49,7 +49,7 @@ Requirements:
 
 * Can automate 80% of the required work.
 * Radial arm length 18m:
-  surface of operation = PI * 18^2 = ca 1017m² 
+  surface of operation = PI * 18^2 = ca 1017m²
 * Propulsion power input: 0,75 kW (typical electrical system efficiency)
 * Power / year = 4000kW for 15 fields (radial arm can be mounted on several field center point slots).
 * => 267 kWyear / field.
@@ -66,7 +66,7 @@ Talk TEDx Bratislava (english subtitles):
 http://www.youtube.com/watch?v=ZwP3A6z4sFc
 
 Documentation from Slovakia:
-http://www.youtube.com/watch?v=mYrJ0BJ4Qak 
+http://www.youtube.com/watch?v=mYrJ0BJ4Qak
 
 
 ###Linksammlung
@@ -105,9 +105,9 @@ Function: Fixed installation holding a bearing. Accept 480VAC 3 phase electricit
 Immobile due to high mass or good fixture to the ground.
 
 
-###Drehlager
+###Rotary bearing
 
-Function: Holding and rotatory joint of the radial arm. Relays the connection of the port to the sliding element, tool.
+Function: Holding and rotary joint of the radial arm. Relays the connection of the port to the sliding element, tool.
 
 Realisation: http://www.youtube.com/watch?v=IMbGA-nOW64#t=5m35
 
@@ -115,7 +115,7 @@ Realisation: http://www.youtube.com/watch?v=IMbGA-nOW64#t=5m35
 * Electrical sliding contacts:
   5x (L1-3, Neutral, PE/Grounding),
 * Build out of copper (Cu) tube, carbon, plastic,
-* 16A current rating (Attention false friend: The longer the wire, the thicker it must be.). 
+* 16A current rating (Attention false friend: The longer the wire, the thicker it must be.).
 * Sprocket/Gear for radial sliding movement chain.
 
 ###Radial slider
@@ -149,7 +149,7 @@ Alternative: Two main wheels.
 Propulsion in radial (sliding) direction (speed sets spirale movement)
 -----
 
-Ján Šlinský coupled the rotatory movement in tangential direction with and uses this as energy source to move the slider. This is possible by fixing e.g. a chain in the center, such that the chain must rotate when the arm is moving around the center (due to the motor attached to outer tip).
+Ján Šlinský coupled the rotary movement in tangential direction with and uses this as energy source to move the slider. This is possible by fixing e.g. a chain in the center, such that the chain must rotate when the arm is moving around the center (due to the motor attached to outer tip).
 The center attachment method, e.g. sprocket/pulley diameter sets speed and gauge/track width of the spirale.
 
 
@@ -157,7 +157,7 @@ Tool holder
 ----
 
 http://www.youtube.com/watch?v=IMbGA-nOW64#t=4m30
-http://www.youtube.com/watch?v=IMbGA-nOW64#t=6m55 
+http://www.youtube.com/watch?v=IMbGA-nOW64#t=6m55
 
 * Self-constraining transmission ratio + stepper motor,
 * Chain- or cable drive with feedback of the optional incremental encoder, to compensate for slip of the main drive (in tangential direction which is coupled to the sliding movement and thus the sliding speed varies).
@@ -169,7 +169,7 @@ http://www.youtube.com/watch?v=IMbGA-nOW64#t=6m55
 * Protection for wiring and (water) piping,
 * Sliding plain bearing or rollers,
 * Standardised Tool interface/coupler (e.g. of 1-axle tractors),
-* Solenoid valve for water control. 
+* Solenoid valve for water control.
 
 
 Werkzeuge
@@ -187,7 +187,7 @@ https://www.youtube.com/watch?v=nStEuHWJE-o
 ###Striding spades
 
 https://www.youtube.com/watch?v=2Rb5o1D7laI
-http://www.agrokruh.sk/node/954 
+http://www.agrokruh.sk/node/954
 
 
 
@@ -200,7 +200,7 @@ http://www.agrokruh.sk/node/954
 ###Grubber (Sowing/seeding preparation tool)
 
 http://www.youtube.com/watch?v=Von3EgRGutw#t=1m35
-http://www.youtube.com/watch?v=Von3EgRGutw#t=3m55 
+http://www.youtube.com/watch?v=Von3EgRGutw#t=3m55
 
 
 ###Electronics (optional)
@@ -210,7 +210,7 @@ For automating task (e.g. watering time + amount).
 * uC (microcontroller),
 * inverter,
 * timer,
-* communication interface (e.g. WLAN or 2-wire bus I2C or CAN). 
+* communication interface (e.g. WLAN or 2-wire bus I2C or CAN).
 
 
 
@@ -230,7 +230,7 @@ Lecturer at the Sokratov Institute.
 
 http://www.sokratovinstitut.sk/index.php/en/lektori/lektori#slinsky
 
-HD version of TEDx Talk: http://www.youtube.com/watch?v=2P7MGNLz5xE 
+HD version of TEDx Talk: http://www.youtube.com/watch?v=2P7MGNLz5xE
 
 
 
