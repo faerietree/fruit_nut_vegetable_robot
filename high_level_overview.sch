@@ -1340,8 +1340,8 @@ F1 "electronics/fluid_level_sensor.sch" 50
 F2 "0|1" I R 1150 3350 60 
 F3 "R" O R 1150 3300 60 
 $EndSheet
-Text Notes 7950 3750 0    60   ~ 0
-Images:\n* plant growth (area)\n* plant health (color)
+Text Notes 7950 3800 0    60   ~ 0
+Images:\n* plant growth (area)\n* plant health (color)\n* snail detection
 Text Notes 7900 3400 0    60   ~ 12
  incoming states:
 $Comp
