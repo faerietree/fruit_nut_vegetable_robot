@@ -7,8 +7,7 @@ Open design and documentation for an agricultural robot similar in function to t
 Overview
 -------
 
-###Current Development
-Design at least one prototype. Improve the prototype until a properly working design is found.
+<img src="high_level_overview.jpg" alt="high_level_overview"/>
 
 
 ###Variants
