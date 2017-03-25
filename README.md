@@ -1,7 +1,7 @@
 Fruit Nut Vegetable Carer
 ==========
 
-Open design and documentation for an agricultural robot similar in function to the AgroKruh, invented by Ján Šlinský, but simpler, cheaper and highly automated reusing the worlddevelopment pivot: <a href="http://github.com/faerietree/manipulator">industrial robot</a>.
+Open design and documentation for an agricultural robot similar in function to the AgroKruh, invented by Ján Šlinský, but simpler, cheaper (10K€ instead of 60K+€) and highly automated reusing the worlddevelopment pivot: <a href="http://github.com/faerietree/manipulator">industrial robot</a>.
 
 
 Overview
@@ -37,65 +37,43 @@ Example principles of operation:
 Requirements:
 ----
 
-* Operate on an as big as convenient ground surface to produce enough food to feed at least a dozen people.
+* Operate on an as big as convenient ground surface to produce enough food to feed at least a dozen people (12).
 * Resolution high enough to reach as much of this surface as possible and useful.
-* Allow to prepare soil for growing plants on this surface of operation.
-* Allow to automate growing plants on this surface of operation.
+* Prepare soil for growing plants on this surface of operation.
+* Grow plants on this surface of operation.
 * Allow manual intervention where and when appropriate.
-* Allow automatically cultivate and nurse ground and plants for fulfilling all requirements of plants (soil nutrients, light, water, space).
+* Cultivate and nurse ground and plants for fulfilling all requirements of plants (soil nutrients, light, water, space).
 
 
 
-###Example technical data (taken from AgroKruh):
+Example: AgroKruh (by Ján Šlinský)
+===
 
 * Can automate 80% of the required work.
 * Radial arm length 18m:
   surface of operation = PI * 18^2 = ca 1017m²
-* Propulsion power input: 0,75 kW (typical electrical system efficiency)
-* Power / year = 4000kW for 15 fields (radial arm can be mounted on several field center point slots).
+* Propulsion power input: 0,75 KW (typical electrical system efficiency)
+* Power / year = 4000KW for 15 fields (radial arm can be mounted on several field center point slots).
 * => 267 kWyear / field.
 * Harvest: 2 tons / field.
-* 1 robotic unit for 3 fields (following satellite images presumably 1 robotic unit for 5 fields, some might be in repair?)
+* 1 robotic unit for 3..5 fields (also see satellite images)
 
 
-Materialsammlung
-----
 
-###Erfinder: Ján Šlinský
+Documentation
+---
 
-Talk TEDx Bratislava (english subtitles):
-http://www.youtube.com/watch?v=ZwP3A6z4sFc
+https://vimeo.com/99343531
 
-Documentation from Slovakia:
-http://www.youtube.com/watch?v=mYrJ0BJ4Qak
+All implements:
+http://www.youtube.com/watch?v=mYrJ0BJ4Qak (English)
+https://www.youtube.com/watch?v=nStEuHWJE-o (sk)
 
-
-###Linksammlung
-
-Ján Šlinský's AgroKruh:
 http://www.google.de/maps/@48.1699222,17.3968533,339m/data=!3m1!1e3
 
-http://ec.europa.eu/environment/ecoap/about-eco-innovation/good-practices/slovakia/20140127-organic-farming-goes-in-circles_de.htm
-
-http://www.farmlandia.sk/en/agrokruh/
-
-http://www.agrokruh.sk/
-
-http://www.fairtrade.cz/files/texty/spolupracujeme/cepta-introducing-agrokruh.pdf
-
-http://www.osrliving.org/forum/forum_posts.asp?TID=44
+http://opensourceecology.org/w/images/1/1c/CEPTA_-_Introducing_AGROKRUH.pdf
 
 
-
-Diskussion/Kommunikation/Dokumentation
-----
-http://forum.opensourceecology.de/viewtopic.php?f=28&t=632&p=3504#p3504
-https://groups.google.com/forum/#!forum/agrocircle
-
-
-
-Example Komponenten (AgroKruh):
-----
 
 ###Port
 
@@ -173,7 +151,8 @@ http://www.youtube.com/watch?v=IMbGA-nOW64#t=6m55
 * Solenoid valve for water control.
 
 
-Werkzeuge
+
+Tools
 ---
 
 * Modified hand tools.
@@ -201,6 +180,7 @@ http://www.agrokruh.sk/node/954
 ###Grubber (Sowing/seeding preparation tool)
 
 http://www.youtube.com/watch?v=Von3EgRGutw#t=1m35
+
 http://www.youtube.com/watch?v=Von3EgRGutw#t=3m55
 
 
@@ -223,15 +203,24 @@ Sammlung
 
 An ecological farmer. He has a diploma from the Mendel University in Brno, Faculty of Gardening. Jan Šlinský is the author of the agricultural system Agrokruh, whose main idea is to produce vegetables sustainably and ecologically. He has also built a net of local buyers, thus supporting local trade in his area. Jan Šlinský is a practical and witty person with a well-developed common sense.
 
-"”Enough talk, it's time to act. It is not in the power of an individual to save the entire planet. However, each of us can help a particular place on Earth. But he must be sufficiently educated and skilled, and he has to love the place he is aiding. “
+”Enough talk, it's time to act. It is not in the power of an individual to save the entire planet. However, each of us can help a particular place on Earth. But he must be sufficiently educated and skilled, and he has to love the place he is aiding.“
 
-http://www.agrokruh.sk/kontakt <!-- phone: 0918 655 564 -->
+<!-- phone: 0918 655 564 -->
 
-Lecturer at the Sokratov Institute.
+Talk TEDx Bratislava (english subtitles):
+http://www.youtube.com/watch?v=ZwP3A6z4sFc
 
-http://www.sokratovinstitut.sk/index.php/en/lektori/lektori#slinsky
+HD version of TEDx Talk:
+http://www.youtube.com/watch?v=2P7MGNLz5xE
 
-HD version of TEDx Talk: http://www.youtube.com/watch?v=2P7MGNLz5xE
+
+
+Discussion
+----
+http://forum.opensourceecology.de/viewtopic.php?f=28&t=632&p=3504#p3504
+
+https://groups.google.com/forum/#!forum/agrocircle
+
 
 
 
