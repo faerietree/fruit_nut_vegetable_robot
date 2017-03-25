@@ -11,27 +11,11 @@ Overview
 
 
 ###Variants
-* [deprecated] Operates on a circular field. (Robot attached to linear slider which itself is attached to a rotational center joint.)
-* [deprecated] Operates on a linear field. (Robot attached to linear slider.)
+* [deprecated] Operates on a circular field. (Robot attached to linear slider which itself is attached to a rotational center joint.) [see AgroKruh]
+* [deprecated] Operates on a linear field. (Robot attached to linear slider.) [see FarmBot]
 * <a href="http://github.com/faerietree/manipulator">5 axis manipulator</a> for static usage
 * <a href="http://github.com/faerietree/walker">walker</a> + <a href="http://github.com/faerietree/manipulator">manipulator</a> for dynamic|infinite field size deployment.
 
-
-
-Example principles of operation:
--------
-###Circular variant:
-* Fixed center point.
-* Attached rotating arm in radial direction (itself a linear slider structure).
-* A supporting propulsion system (wheel + motor) is attached at the outer radius tip of this radial axis.
-* A sliding element (wagon) attaches to the rotating arm.
-
-###Linear variant:
-* Two fixed points connected with a linear sliding structure that holds a wagon for tool attachment.
-
-###Common to all variants:
-* Exchangeable tools / machines.
-* Optional a bed surface for operators (e.g. humanoid).
 
 
 Requirements:
