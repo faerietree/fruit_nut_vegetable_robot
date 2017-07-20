@@ -4,6 +4,10 @@ Fruit Nut Vegetable Carer
 Open design and documentation for an agricultural robot similar in function to the AgroKruh, invented by Ján Šlinský, but simpler, cheaper (10K€ instead of 60K+€) and highly automated reusing the worlddevelopment pivot: <a href="http://github.com/faerietree/manipulator">industrial robot</a>.
 
 
+<a href="environment/README.md">Environment</a>
+---
+<img src="environment/20170510_121423.jpg" alt=""/>
+
 Overview
 -------
 
